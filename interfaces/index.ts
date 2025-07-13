@@ -32,6 +32,7 @@ export interface PropertyProps {
   };
   image: string;
   discount?: string | null;
+  description: string
 }
 
 export interface SearchParams {
