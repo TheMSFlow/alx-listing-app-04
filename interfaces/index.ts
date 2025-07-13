@@ -45,3 +45,11 @@ export interface SearchParams {
 export interface IconGalleryProps {
   onIconClick?: (iconName: string) => void;
 }
+
+export interface Review {
+  id: string;
+  comment: string;
+  rating: number;
+  reviewerName: string;
+  date: string; 
+}
